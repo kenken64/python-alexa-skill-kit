@@ -3,7 +3,7 @@
 
 * MongoDB mLab Account (https://mlab.com/login/?r=%2Fdatabases%2Fpyiot-stackup%2Fcollections%2Ftemperature)
 
-* Launch Chrome , access the developer console page if you are a new user please register an account. If not just login with your existing credential
+* Launch Chrome , access the developer console page if you are a new user please register an account. If already existing amazon user login with your existing credential.
 
 
 ![alt text](images/1.png "Sign In Email")

@@ -280,7 +280,7 @@ def lambda_handler(event, context):
 
 10. Navigate back to te Alexa Skills Console go to endpoint copy the Skill ID and paste it to the lambda function.
 
-9. Copy the Lambda function ARN and paste to the Alexa Skills console's endpoint and save the model
+9. Copy the Lambda function ARN and paste to the Alexa Skills console's endpoint and save model.
 
 
 ![alt text](images/8.gif "Slot Types")

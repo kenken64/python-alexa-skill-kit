@@ -1,5 +1,4 @@
 import serial
-from shutil import copyfile
 import paho.mqtt.client as paho
 
 broker="m12.cloudmqtt.com"

@@ -274,7 +274,7 @@ def lambda_handler(event, context):
 
 <br>
 
-![alt text](images/7.gif "Slot Types")
+![alt text](images/7.gif "Lambda")
 
 9. Add "Alexa Skills Kit" trigger to the lambda function
 
@@ -283,7 +283,7 @@ def lambda_handler(event, context):
 9. Copy the Lambda function ARN and paste to the Alexa Skills console's endpoint and save model.
 
 
-![alt text](images/8.gif "Slot Types")
+![alt text](images/8.gif "Alexa Endpoint")
  
 <br>
 <hr>
@@ -320,7 +320,15 @@ pip install paho-mqtt
 python alexa-iot/arduino.py
 python alexa-iot/server.py
 python alexa-iot/device-broker.py
+ngrok http 5050 --subdomain=iotstackup
+
 ```
+
+## Configure Alexa Skills endpoint
+
+HTTPS default region is configure as the ngrok address "https://iotstackup.ngrok.io"
+
+![alt text](images/7.png "Alexa Endpoint")
 
 
 ## Alexa Skills JSON Configuration

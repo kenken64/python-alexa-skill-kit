@@ -301,6 +301,12 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 ## Objectives
 * Ask Alexa which is hook to a custom made internet of things with temperature sensor to read out the room humidity and temperature .
 
+## Load Arduino firmware to the development board
+* Launch Arduino IDE
+* Open the firmware/temperature_sensor.ino
+* Compile 
+* Sync to the Arduino board
+
 ## Python Dependencies
 ```
 pip install flask

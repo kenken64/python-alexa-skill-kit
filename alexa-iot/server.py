@@ -26,16 +26,5 @@ def roomtemp():
     speech_text = "Hi. This room is " + result
     return statement(speech_text).simple_card('Welcome', speech_text)    
 
-@ask.intent('MalaysiaElection')
-def malaysiaElection():
-    speech_text = "Hi. Najib and Gang will WIN. Don't waste your time."
-    return statement(speech_text).simple_card('Welcome', speech_text)    
-
-@ask.intent('MalaysiaPMWife')
-def malaysiaElection():
-    speech_text = "Feng shui said as long his wife keep the lion king hair he will be always a winner."
-    return statement(speech_text).simple_card('Welcome', speech_text)  
-
-
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=False)

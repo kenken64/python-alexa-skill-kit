@@ -1,6 +1,3 @@
-# The future of Voice Computing
-
-
 # Pre-requisite
 * Amazon AWS Account (https://developer.amazon.com/alexa/console/)
 
